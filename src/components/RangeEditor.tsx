@@ -599,8 +599,8 @@ export const RangeEditor = ({ isMobileMode = false }: RangeEditorProps) => {
 
         {/* Action Buttons */}
         <div className={cn(
-          "space-y-3 border-t pt-4",
-          isMobileMode ? "order-1" : "order-2"
+          "space-y-3 border-t",
+          isMobileMode ? "order-1 pt-2" : "order-2 pt-4"
         )}>
           <div className="flex items-center justify-between">
             <h3 className="text-sm font-medium">Действия</h3>
