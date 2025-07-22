@@ -109,7 +109,7 @@ export const PokerMatrix = ({ selectedHands, onHandSelect, activeAction, actionB
   return (
     <div className="space-y-4">
       <div
-        className="grid grid-cols-13 gap-0.5 sm:gap-1 bg-card p-2 sm:p-4 rounded-lg border relative aspect-square w-full lg:w-[63%] select-none"
+        className="grid grid-cols-13 gap-0.5 sm:gap-1 bg-card p-2 sm:p-4 rounded-lg border relative aspect-square w-full select-none"
         onTouchMove={handleTouchMove}
       >
         {HANDS.map((row, rowIndex) => 
